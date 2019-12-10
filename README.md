@@ -1,6 +1,7 @@
-# logistic regression for Titanic event
+# 古诗生成器
 
-## Brief introduction
+* 可选择生成五言绝句或七言绝句
+
 train a logistic regression model to predict the surviving situation in Titanic event.
 
 logistic_regression_4_train.py includes data preprocessing and prefeature engineering, and train a logistic regression model to fit the data. 
