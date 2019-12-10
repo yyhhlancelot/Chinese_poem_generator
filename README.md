@@ -12,6 +12,13 @@
 * 提供训练了6000epoch的带Attention的模型供下载测试
 [下载链接](https://pan.baidu.com/s/1fLf94zv-jHwJ5U5oddBcpw)
 
+### 附件说明
+* attention_layer.py : 内部定义了Attention层的类，可以选择是否进行使用
+* config.py : configuration配置文件类
+* poetry_model.py : 模型定义类
+* preprocess.py : 文本预处理文件
+* front_end.ipynb : 前端训练、测试反馈样例展示
+
 ### 训练过程，每一行代表不同的temperature，对结果的概率产生影响，可以理解为结果的宽容度/开放度
 ==============epoch 32=============
 客心仍在楚，若轰余页蒙新朵易玉衰音狙友效函侍步鶒
@@ -58,4 +65,4 @@ generate = model.predict_sentence(sentence, temperature = 1)
 generate
 '翁夜往还。月花未灵霜，山三恩尽已。愁泣雪都人，将'
 ```
-这时只需要取我们需要的```月花未灵霜，```就行了，同理，就生成了藏头诗。
+这时只需要取我们需要的```月花未灵霜，```就行了，同理就生成了藏头诗。
