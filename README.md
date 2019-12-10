@@ -9,7 +9,7 @@
 * 关于RNN/LSTM/Attention可以浏览以下资料：
 [学习链接](https://blog.csdn.net/yyhhlancelot/article/details/102502355)
 
-* 提供训练了6000epoch的带Attention的模型供下载测试
+* 提供训练了6000epoch的带Attention的模型供下载测试：
 [下载链接](https://pan.baidu.com/s/1fLf94zv-jHwJ5U5oddBcpw)
 
 ### 附件说明
