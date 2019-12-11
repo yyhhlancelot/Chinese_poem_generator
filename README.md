@@ -18,6 +18,8 @@
 * poetry_model.py : 模型定义类
 * preprocess.py : 文本预处理文件
 * front_end.ipynb : 前端训练、测试反馈样例展示
+* dataset : 包含了四万多首古诗的数据集
+* out.txt : 输出展示
 
 ### 训练过程，每一行代表不同的temperature，对结果的概率产生影响，可以理解为结果的宽容度/开放度
 ==============epoch 32=============<br>
