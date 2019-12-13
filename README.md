@@ -21,7 +21,8 @@
 * dataset : 包含了四万多首古诗的数据集
 * out.txt : 输出展示
 
-### 训练过程，每一行代表不同的temperature，对结果的概率产生影响，可以理解为结果的宽容度/开放度
+### 训练过程
+* 每一行代表不同的temperature，对结果的概率产生影响，可以理解为结果的宽容度/开放度
 ==============epoch 32=============<br>
 客心仍在楚，若轰余页蒙新朵易玉衰音狙友效函侍步鶒<br>
 客心仍在楚，尺味堰龉孀，鸥花履飞悸，中略矶苾躁。<br>
@@ -68,3 +69,6 @@ generate
 '翁夜往还。月花未灵霜，山三恩尽已。愁泣雪都人，将'
 ```
 这时只需要取我们需要的```月花未灵霜，```就行了，同理就生成了藏头诗。
+
+### 参考文献
+Raffel C , Ellis D P W . Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems[J]. 2015.
