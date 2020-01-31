@@ -17,7 +17,7 @@
 * config.py : configuration配置文件类
 * poetry_model.py : 模型定义类
 * preprocess.py : 文本预处理文件
-* front_end.ipynb : 前端训练、测试反馈样例展示
+* demo.ipynb : 前端训练、测试反馈样例展示
 * dataset : 包含了四万多首古诗的数据集
 * out.txt : 输出展示
 
